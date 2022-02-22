@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Consumable
+comment1.params=name\ typeOfConsume
+comment1.target=Consumable(java.lang.String,\ java.lang.String)
+numComments=2

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=DamageTypes
+comment1.params=AdDmg\ ApDmg
+comment1.target=DamageTypes(java.lang.String,\ java.lang.String)
+numComments=2

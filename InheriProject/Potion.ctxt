@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Potion
+comment1.params=
+comment1.target=Potion()
+comment2.params=name\ typeOfConsume
+comment2.target=Potion(java.lang.String,\ java.lang.String)
+numComments=3

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Sandal
+comment1.params=
+comment1.target=Sandal()
+comment2.params=name\ typeOfEquip
+comment2.target=Sandal(java.lang.String,\ java.lang.String)
+numComments=3
