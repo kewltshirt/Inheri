@@ -2,6 +2,6 @@
 comment0.target=Sandal
 comment1.params=
 comment1.target=Sandal()
-comment2.params=name\ typeOfEquip
-comment2.target=Sandal(java.lang.String,\ java.lang.String)
+comment2.params=name\ typeOfEquip\ cost\ ARs\ MaRs\ CDwn
+comment2.target=Sandal(java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ int)
 numComments=3

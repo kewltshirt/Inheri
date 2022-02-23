@@ -24,24 +24,31 @@ public abstract class Character
     /* steals life based on dmg
      * hp += dmg*lifevamp
      */
-    
-    
-    /**
-     * 
-     * 
-     * 
-     */
+    public Character(int hp, int mp){
+        HealthPoints = hp;
+        Mana = mp;
+    }
+    public int getHP(){
+        return HealthPoints; 
+    }
+    public int getMP(){
+        return Mana; 
+    }
     /*public int loseHP()
     {
-        if(
-            if(armour >= 0 ){
-            hp -= physDmg * (100/(100+armour)); 
-        }else if(armour < 0 
-        
+    if(
+    if(armour >= 0 ){
+    hp -= physDmg * (100/(100+armour)); 
+    }else if(armour < 0 
+
     }
-        public void abilityOne(){}
-        public void abilityTwo(){}
-        public void abilityThree(){}
-        public void abilityFour(){}
-    */
+    public void abilityOne(){}
+    public void abilityTwo(){}
+    public void abilityThree(){}
+    public void abilityFour(){}
+     */
+    public void usePotion(Potion pot){
+        HealthPoints += pot.useHPotion();
+        Mana += pot.useMPotion();
+    }
 }

@@ -1,5 +1,9 @@
 #BlueJ class context
 comment0.target=Consumable
-comment1.params=name\ typeOfConsume
-comment1.target=Consumable(java.lang.String,\ java.lang.String)
-numComments=2
+comment1.params=name\ typeOfConsume\ cost
+comment1.target=Consumable(java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=int\ useHPotion()
+comment3.params=
+comment3.target=int\ useMPotion()
+numComments=4
