@@ -13,6 +13,6 @@ public interface DefenseCommands
      * 
      * @return        True if the attack was blocked by a piece of armor. 
      */
-    boolean blocked();
+    boolean blocked(Character carat);
     
 }

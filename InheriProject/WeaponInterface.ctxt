@@ -1,10 +1,7 @@
 #BlueJ class context
 comment0.target=WeaponInterface
-comment0.text=\r\n\ Methods\ for\ all\ weapons\r\n\ \r\n\ @author\ Wiebe\ \r\n\ @version\ 1.2\r\n
-comment1.params=
-comment1.target=int\ attack()
-comment1.text=\r\n\ Attacks\ an\ enemy\ for\ an\ amount\r\n\ \r\n\ \r\n\ @return\ \ \ \ \ \ \ \ Returns\ amount\ of\ damage\ successfully\ done\ to\ the\ opponent\ \r\n
-comment2.params=
-comment2.target=boolean\ parry()
-comment2.text=\r\n\ Parry\ Attack\ Method\r\n\ \r\n\ A\ Parry\ is\ when\ a\ incoming\ attack\ is\ blocked\ with\ your\ weapon\r\n\ \r\n\ @return\ \ \ \ \ \ \ \ True\ if\ the\ attack\ was\ parried.\ \r\n
-numComments=3
+comment0.text=\r\n\ Methods\ for\ all\ weapons\r\n\ \r\n\ @author\ Wiebe\ \r\n\ @version\ 1.2\r\n\ \r\n\ @modified\ by\ Mitch\ so\ new\ version\ kinda?\ Was\ allowed\ to\ remove\ parry\r\n\ as\ my\ concept\ does\ not\ involve\ the\ ability\ to\ parry\r\n
+comment1.params=physAtk\ magAtk\ carat
+comment1.target=int\ attack(int,\ int,\ Character)
+comment1.text=\r\n\ Attacks\ an\ enemy\ for\ an\ amount\r\n\ \r\n\ \r\n\ @return\ \ \ \ \ \ \r\n\ Returns\ amount\ of\ damage\ successfully\ done\ to\ the\ opponent\ \r\n
+numComments=2

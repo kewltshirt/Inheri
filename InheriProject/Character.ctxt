@@ -1,14 +1,32 @@
 #BlueJ class context
 comment0.target=Character
 comment0.text=\r\n\ Abstract\ class\ Character\ -\ write\ a\ description\ of\ the\ class\ here\r\n\r\n\ @author\ (your\ name\ here)\r\n\ @version\ (version\ number\ or\ date\ here)\r\n
-comment1.params=hp\ mp
-comment1.target=Character(int,\ int)
+comment1.params=hp\ mp\ mgDmg\ phDmg\ pyRes\ miRes\ moSpd\ skHaste\ critChance\ critDamage\ blkChance\ lfVamp
+comment1.target=Character(int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int)
 comment1.text=\ steals\ life\ based\ on\ dmg\r\n\ hp\ +\=\ dmg*lifevamp\r\n
+comment10.params=
+comment10.target=int\ getCritDmg()
+comment11.params=
+comment11.target=int\ getCritChance()
+comment12.params=
+comment12.target=int\ getBlockChance()
+comment13.params=pot
+comment13.target=void\ usePotion(Potion)
+comment13.text=public\ int\ loseHP()\r\n\ \ \ \ {\r\n\ \ \ \ if(\r\n\ \ \ \ if(armour\ >\=\ 0\ ){\r\n\ \ \ \ hp\ -\=\ physDmg\ *\ (100/(100+armour));\ \r\n\ \ \ \ }else\ if(armour\ <\ 0\ \r\n\r\n\ \ \ \ }\r\n\ \ \ \ public\ void\ abilityOne(){}\r\n\ \ \ \ public\ void\ abilityTwo(){}\r\n\ \ \ \ public\ void\ abilityThree(){}\r\n\ \ \ \ public\ void\ abilityFour(){}\r\n
 comment2.params=
 comment2.target=int\ getHP()
 comment3.params=
 comment3.target=int\ getMP()
-comment4.params=pot
-comment4.target=void\ usePotion(Potion)
-comment4.text=public\ int\ loseHP()\r\n\ \ \ \ {\r\n\ \ \ \ if(\r\n\ \ \ \ if(armour\ >\=\ 0\ ){\r\n\ \ \ \ hp\ -\=\ physDmg\ *\ (100/(100+armour));\ \r\n\ \ \ \ }else\ if(armour\ <\ 0\ \r\n\r\n\ \ \ \ }\r\n\ \ \ \ public\ void\ abilityOne(){}\r\n\ \ \ \ public\ void\ abilityTwo(){}\r\n\ \ \ \ public\ void\ abilityThree(){}\r\n\ \ \ \ public\ void\ abilityFour(){}\r\n
-numComments=5
+comment4.params=
+comment4.target=int\ getPhyRes()
+comment5.params=
+comment5.target=int\ getMagRes()
+comment6.params=
+comment6.target=int\ getPhyDmg()
+comment7.params=
+comment7.target=int\ getMagDmg()
+comment8.params=
+comment8.target=int\ getMoveSpeed()
+comment9.params=
+comment9.target=int\ getSkillHaste()
+numComments=14

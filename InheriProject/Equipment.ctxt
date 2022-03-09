@@ -1,5 +1,7 @@
 #BlueJ class context
 comment0.target=Equipment
-comment1.params=name\ typeOfEquip\ cost\ ARs\ MaRs\ CDwn
-comment1.target=Equipment(java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ int)
-numComments=2
+comment1.params=name\ typeOfEquip\ cost\ ARs\ MaRs\ CDwn\ desc
+comment1.target=Equipment(java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ int,\ java.lang.String)
+comment2.params=carat
+comment2.target=boolean\ blocked(Character)
+numComments=3

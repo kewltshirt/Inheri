@@ -4,6 +4,9 @@
  * 
  * @author Wiebe 
  * @version 1.2
+ * 
+ * @modified by Mitch so new version kinda? Was allowed to remove parry
+ * as my concept does not involve the ability to parry
  */
 public interface WeaponInterface
 {
@@ -11,16 +14,8 @@ public interface WeaponInterface
      * Attacks an enemy for an amount
      * 
      * 
-     * @return        Returns amount of damage successfully done to the opponent 
+     * @return      
+     * Returns amount of damage successfully done to the opponent 
      */
-    int attack();
-    /**
-     * Parry Attack Method
-     * 
-     * A Parry is when a incoming attack is blocked with your weapon
-     * 
-     * @return        True if the attack was parried. 
-     */
-    boolean parry();
-    
+    int attack(int physAtk, int magAtk, Character carat);
 }

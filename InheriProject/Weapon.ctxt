@@ -1,5 +1,9 @@
 #BlueJ class context
 comment0.target=Weapon
-comment1.params=name\ typeOfWeapon\ cost\ physAtk\ magAtk\ AtckSpd\ Criti\ CritiDmg
-comment1.target=Weapon(java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ int,\ int,\ int)
-numComments=2
+comment1.params=name\ typeOfWeapon\ cost\ physAtk\ magAtk\ AtckSpd\ Criti\ CritiDmg\ desc
+comment1.target=Weapon(java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ int,\ int,\ int,\ java.lang.String)
+comment2.params=physAtk\ magAtk\ carat
+comment2.target=int\ attack(int,\ int,\ Character)
+comment3.params=blocked
+comment3.target=int\ damageBlocked(boolean)
+numComments=4

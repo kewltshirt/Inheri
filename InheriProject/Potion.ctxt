@@ -2,8 +2,8 @@
 comment0.target=Potion
 comment1.params=
 comment1.target=Potion()
-comment2.params=name\ typeOfConsume\ cost\ potionHP\ potionMP
-comment2.target=Potion(java.lang.String,\ java.lang.String,\ int,\ int,\ int)
+comment2.params=name\ typeOfConsume\ cost\ potionHP\ potionMP\ desc
+comment2.target=Potion(java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ java.lang.String)
 comment3.params=
 comment3.target=int\ useHPotion()
 comment4.params=
