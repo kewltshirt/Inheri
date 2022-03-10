@@ -4,7 +4,7 @@
  * @author (your name here)
  * @version (version number or date here)
  */
-public abstract class Character
+public class Character
 {
     private int HealthPoints;
     private int MagicDamage;
